@@ -1,0 +1,17 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rerum:item/lava_container"
+  },
+  "overrides": [
+    {"predicate": {"fill_level": 0.001}, "model": "rerum:item/lava_container/lava_container_0"},
+    {"predicate": {"fill_level": 0.125}, "model": "rerum:item/lava_container/lava_container_1"},
+    {"predicate": {"fill_level": 0.25}, "model": "rerum:item/lava_container/lava_container_2"},
+    {"predicate": {"fill_level": 0.375}, "model": "rerum:item/lava_container/lava_container_3"},
+    {"predicate": {"fill_level": 0.5}, "model": "rerum:item/lava_container/lava_container_4"},
+    {"predicate": {"fill_level": 0.62575}, "model": "rerum:item/lava_container/lava_container_5"},
+    {"predicate": {"fill_level": 0.75}, "model": "rerum:item/lava_container/lava_container_6"},
+    {"predicate": {"fill_level": 0.875}, "model": "rerum:item/lava_container/lava_container_7"},
+    {"predicate": {"fill_level": 1}, "model": "rerum:item/lava_container/lava_container_8"}
+  ]
+}

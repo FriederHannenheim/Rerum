@@ -1,29 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "rerum",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Rerum",
+  "description": "This mod adds a lot of random stuff that I come up with. I decided to include it all in one mod instead of making many small ones",
   "authors": [
-    "Me!"
+    "Frieder Hannenheim"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/FriederHannenheim/Rerum"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/rerum/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "fhannenheim.rerum.Rerum"
+    ],
+    "cardinal-components-entity": [
+      "fhannenheim.rerum.modules.BoostBoots"
+    ],
+    "client": [
+      "fhannenheim.rerum.Rerum"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "rerum.mixins.json"
   ],
 
   "depends": {
@@ -32,7 +37,10 @@
     "minecraft": "1.17.x",
     "java": ">=16"
   },
-  "suggests": {
-    "another-mod": "*"
+  "custom": {
+    "cardinal-components": [
+      "rerum:airborne_last_tick",
+      "rerum:boost_used"
+    ]
   }
 }

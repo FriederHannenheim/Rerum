@@ -1,0 +1,4 @@
+- Maybe fix lava being placed above water instead of in it.
+- Give command parse mod items too
+- Update old item Identifiers
+- Boost Boots enchants
