@@ -12,7 +12,7 @@
     "sources": "https://github.com/FriederHannenheim/Rerum"
   },
 
-  "license": "MIT",
+  "license": "GPLv2",
   "icon": "assets/rerum/icon.png",
 
   "environment": "*",
